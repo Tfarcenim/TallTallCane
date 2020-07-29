@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.talltallcane.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "TallTallBambooMixin",
+    "TallTallSugarCaneMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

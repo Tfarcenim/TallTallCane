@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "talltallcane",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Tall Tall Cane",
+  "description": "Tall sugar cane, cactus, and bamboo",
   "authors": [
-    "Me!"
+    "Tfarcenim"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tfar.talltallcane.TallTallCane"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "talltallcane.mixins.json"
   ],
 
   "depends": {
